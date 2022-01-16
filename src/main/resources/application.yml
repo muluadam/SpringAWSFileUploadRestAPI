@@ -1,0 +1,22 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 200KB
+      max-file-size: 200KB
+      max-request-size: 200KB
+
+application:
+  bucket:
+    name: muluadams3bucket
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAS55CDSLXOXYY4HUZ
+      secret-key: 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
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
